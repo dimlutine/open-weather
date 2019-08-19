@@ -1,0 +1,32 @@
+/* Some CSS Setup - nothing to do with flexbox */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+/*Video*/
+
+.dog {
+  height: 120vh;
+
+  -webkit-filter: blur(1px);
+  filter: blur(2px);
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+/*Hack to get them to align properly */
+
+/*Flexbox Starts Here*/
+
+.main-content {
+  background: rgba(28, 58, 87, 0.375);
+
+  width: 100%;
+}
+
+h1,
+h3 {
+  color: rgb(78, 157, 231);
+}
